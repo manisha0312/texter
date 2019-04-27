@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC5C2"
+    tools:context="com.parse.starter.ChatActivity">
+
+    <EditText
+        android:id="@+id/chatEditText"
+        android:layout_width="193dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginBottom="116dp"
+        android:ems="10"
+        android:inputType="textLongMessage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chatlistview"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ListView
+        android:id="@+id/chatlistview"
+        android:layout_width="414dp"
+        android:layout_height="454dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="118dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="sendchat"
+        android:text="@string/send"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/schduletext"
+        app:layout_constraintStart_toEndOf="@+id/chatEditText"
+        app:layout_constraintTop_toBottomOf="@+id/chatlistview" />
+
+    <Button
+        android:id="@+id/schduletext"
+        android:layout_width="63dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="schudle"
+        android:text="@string/schedule"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/send"
+        app:layout_constraintTop_toBottomOf="@+id/chatlistview" />
+
+</android.support.constraint.ConstraintLayout>

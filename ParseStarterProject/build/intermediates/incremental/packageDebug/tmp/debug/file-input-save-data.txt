@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Thu Apr 25 10:32:40 IST 2019
+1.base=/Users/mohit/Desktop/androidserverproject/texter/ParseStarterProject/build/intermediates/dex/debug/mergeProjectDexDebug/out
+2.path=classes2.dex
+0.baseType=DIRECTORY
+2.base=/Users/mohit/Desktop/androidserverproject/texter/ParseStarterProject/build/intermediates/dex/debug/mergeExtDexDebug/out
+2.set=DEX
+1.baseType=DIRECTORY
+count=3
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=/Users/mohit/Desktop/androidserverproject/texter/ParseStarterProject/build/intermediates/dex/debug/mergeExtDexDebug/out
+2.baseType=DIRECTORY
+1.path=classes.dex
